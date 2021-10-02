@@ -1,0 +1,123 @@
+body {
+    background-color: rgb(230, 230, 230);
+}
+
+#master {
+    width:auto;
+}
+
+#title, #maker {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#maindiv {
+    width: 350px;
+    height: 450px;
+    background-color: rgb(190, 187, 187);
+    margin-left: auto;
+    margin-right: auto;
+    border: 4px solid darkgrey;
+    border-radius: 6px;
+}
+
+#filler {
+    width: 350px;
+    height: 1px;
+    background-color: rgb(190, 187, 187);
+}
+
+#calcscreen {
+    width: 300px;
+    height: 100px;
+    background-color: rgb(182, 201, 183);
+    margin: 25px 25px;
+    border: 2px darkgrey solid;
+}
+
+#btncontainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    text-align: center;
+    margin-top: 6px;
+}
+
+#clearbtns {
+    text-align: center;
+}
+
+.eraseclear {
+    width: 144px;
+    height: 48px;
+    margin: 10px 8px;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 4px;
+}
+
+#clear {
+    border: 2px solid rgb(207, 89, 89);
+    background-color: rgb(233, 123, 123);
+}
+
+#delete {
+    border: 2px solid rgb(89, 89, 207);
+    background-color: rgb(123, 123, 233);
+}
+
+#clear:hover {
+    background-color: rgb(227, 117, 117);
+}
+
+#delete:hover {
+    background-color: rgb(117, 117, 227);
+}
+
+#clear:active {
+    background-color: rgb(221, 111, 111);
+}
+
+#delete:active {
+    background-color: rgb(111, 111, 221);
+}
+
+.valbtn, .opbtn, .equal {
+    width: 64px;
+    height: 40px;
+    margin-left: 14px;
+    margin-top: 10px;
+    font-size: 16px;
+    border: 2px solid rgb(116, 91, 173);
+    background-color: rgb(150, 125, 207);
+    border-radius: 4px;
+}
+
+.valbtn:hover, .opbtn:hover, .equal:hover {
+    background-color: rgb(144, 119, 201);
+}
+
+.valbtn:active, .opbtn:active, .equal:active {
+    background-color: rgb(138, 113, 195);
+}
+
+.secdisplay {
+    height: 30px;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+.maindisplay {
+    height: 40px;
+    padding: 5px 10px;
+}
+
+.secondarydisplaytext {
+    font-size: 24px;
+    margin: 0px;
+}
+
+.displaytext {
+    font-size: 32px;
+    margin: 0px;
+}
